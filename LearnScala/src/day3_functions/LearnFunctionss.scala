@@ -42,4 +42,18 @@ object LearnFunctionss {
     result
   }
   println(sum(1,2,3,4,5))
+  
+  println("--------Higher Order function-----------")
+  println("--------function that take another function as parameter or returns function-----------")
+  
+  def dobleTheNumber(num:Int):Int={
+    num*2
+  }
+  
+  def highOrderFun(x:Int,y:Int=>Int):Int={
+    y(x)
+  }
+  
+  println("-----------Processing the higher order functions-----------------")
+  println(highOrderFun(9,dobleTheNumber))
 }
