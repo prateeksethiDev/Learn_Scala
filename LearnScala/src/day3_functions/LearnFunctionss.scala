@@ -57,6 +57,7 @@ object LearnFunctionss {
   println("-----------Processing the higher order functions-----------------")
   println(highOrderFun(9,dobleTheNumber))
   
+  
   println("-----------Processing the higher order functions to triple the number-----------------")
   val tripleTheNumber=(num:Int)=>num*3
   println(highOrderFun(9,tripleTheNumber))
