@@ -62,5 +62,6 @@ object LearnFunctionss {
   
   
   val tripleTheNumber=(num:Int)=>num*3
+  
   println(highOrderFun(9,tripleTheNumber))
 }
