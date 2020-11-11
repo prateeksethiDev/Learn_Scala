@@ -58,10 +58,18 @@ object LearnFunctionss {
   println(highOrderFun(9,dobleTheNumber))
   
   
-  println("-----------Processing the higher order functions to triple the number-----------------")
+  println("-----------Processing the higher order functions to triple the number(Passing function as a parameter)-----------------")
   
   
   val tripleTheNumber=(num:Int)=>num*3
   
   println(highOrderFun(9,tripleTheNumber))
+
+  println("-----------Processing the higher order functions that return value-----------------")
+
+  def greet = (name: String) => { "GM: " + name }
+
+  var msg = greet("Prateek")
+  println(msg)
+  
 }
